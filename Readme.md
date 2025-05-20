@@ -3,9 +3,13 @@
 ## Concurrency 
 - [Race Condition](/Concurrency/Goroutines/main.go)
 - [Synchronization](/Concurrency/)
-    - [Mutex](/Concurrency/Mutex/main.go)
     - [WaitGroups](/Concurrency/WaitGroups/main.go)
-
+    - [Mutex](/Concurrency/Mutex/main.go)
+    - [RWMutex](/Concurrency/RWMutex/main.go)
+    - [Cond](/Concurrency/Cond/main.go)
+- [Problems](/Concurrency/Problems/)
+    - [Producer Consumer](/Concurrency/Problems/ProducerConsumer/main.go)
+    
 ## MapReduce
 Users specify a map function that processes a
 key/value pair to generate a set of intermediate key/value
