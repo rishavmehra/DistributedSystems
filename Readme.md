@@ -11,6 +11,7 @@
 - [Deadlock, Livelock, Starvation](/Concurrency/)
     - [Deadlock](/Concurrency/Deadlock/main.go)
     - [Livelock](/Concurrency/Livelock/main.go)
+    - [Starvation](/Concurrency/Starvation/main.go)
 - [Problems](/Concurrency/Problems/)
     - [Producer Consumer](/Concurrency/Problems/ProducerConsumer/main.go)
     
