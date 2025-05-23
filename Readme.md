@@ -7,6 +7,7 @@
     - [Mutex](/Concurrency/Mutex/main.go)
     - [RWMutex](/Concurrency/RWMutex/main.go)
     - [Cond](/Concurrency/Cond/main.go)
+    - [Pool](/Concurrency/Pool/main.go)
 - [Deadlock, Livelock, Starvation](/Concurrency/)
     - [Deadlock](/Concurrency/Deadlock/main.go)
     - [Livelock](/Concurrency/Livelock/main.go)
