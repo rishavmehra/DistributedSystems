@@ -6,6 +6,8 @@ import (
 	"time"
 )
 
+// the processes still depend on each other and can never finish their tasks.
+
 func main() {
 	c1 := Chopstick{}
 	c2 := Chopstick{}

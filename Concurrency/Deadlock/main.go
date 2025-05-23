@@ -5,6 +5,8 @@ import (
 	"sync"
 )
 
+// A deadlock is a situation in which processes block each other due to resource acquisition and none of the processes makes any progress as they wait for the resource held by the other process.
+
 // For a deadlock to occur, four conditions, known as the Coffman conditions, must be met simultaneously: mutual exclusion, hold and wait, no preemption, and circular wait.
 
 func main() {

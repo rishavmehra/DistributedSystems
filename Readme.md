@@ -7,6 +7,9 @@
     - [Mutex](/Concurrency/Mutex/main.go)
     - [RWMutex](/Concurrency/RWMutex/main.go)
     - [Cond](/Concurrency/Cond/main.go)
+- [Deadlock, Livelock, Starvation](/Concurrency/)
+    - [Deadlock](/Concurrency/Deadlock/main.go)
+    - [Livelock](/Concurrency/Livelock/main.go)
 - [Problems](/Concurrency/Problems/)
     - [Producer Consumer](/Concurrency/Problems/ProducerConsumer/main.go)
     
