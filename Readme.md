@@ -14,6 +14,19 @@
     - [Starvation](/Concurrency/Starvation/main.go)
 - [Problems](/Concurrency/Problems/)
     - [Producer Consumer](/Concurrency/Problems/ProducerConsumer/main.go)
+
+## Distributed Systems Patterns
+| Type                                        | Category                                  | Patterns                                                                                                                                                                                                                                     |
+| ------------------------------------------- | ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ❌ **Not Core Distributed Systems Patterns** | **Microservices / Cloud-Native Patterns** | **Ambassador**, **Circuit Breaker**, **Sidecar**, **Bulkhead**, **Cache-Aside**, **CQRS**, **Event Sourcing**                                                                                                                                |
+| ✅ **Distributed Systems Patterns**          | **Replication**                           | Write-Ahead Log, Segmented Log, Low-Water Mark, Leader and Followers, Heartbeat, Majority Quorum, Generation Clock, High-Water Mark, Paxos, Replicated Log, Singular Update Queue, Request Waiting List, Idempotent Receiver, Follower Reads |
+| ✅ **Distributed Systems Patterns**          | **Partitioning**                          | Fixed Partitions, Key-Range Partitions, Directory-Based Partitioning, Consistent Hashing, Sharded Queue, Composite Partitioning                                                                                                              |
+| ✅ **Distributed Systems Patterns**          | **Coordination**                          | Single Leader, Leader and Learner, Shared Log, Two-Phase Commit, Consensus, Gossip Protocols, Membership and Failure Detection, Leader Election, Distributed Transactions and Recovery                                                       |
+| ✅ **Distributed Systems Patterns**          | **Distributed Time**                      | Lamport Clock, Hybrid Clock, Clock-Bound Wait                                                                                                                                                                                                |
+| ✅ **Distributed Systems Patterns**          | **Cluster Management**                    | Consistent Core, Lease, State Watch, Gossip Dissemination, Emergent Leader                                                                                                                                                                   |
+| ✅ **Distributed Systems Patterns**          | **Node Communication**                    | Single-Socket Channel, Request Batch, Request Pipeline                                                                                                                                                                                       |
+
+
     
 ## MapReduce
 Users specify a map function that processes a
