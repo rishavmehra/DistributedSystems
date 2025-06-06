@@ -14,7 +14,9 @@
     - [Starvation](/Concurrency/Starvation/main.go)
 - [Problems](/Concurrency/Problems/)
     - [Producer Consumer](/Concurrency/Problems/ProducerConsumer/main.go)
-
+    - [Confinement](/Concurrency/Problems/Confinement)
+        - [ad hoc](/Concurrency/Problems/Confinement/adhoc/main.go)
+        - [lexical](/Concurrency/Problems/Confinement/lexical/main.go)  
 ## Distributed Systems Patterns
 | Type                                        | Category                                  | Patterns                                                                                                                                                                                                                                     |
 | ------------------------------------------- | ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
